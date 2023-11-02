@@ -1,0 +1,26 @@
+{
+  "name": "joker",
+  "version": "1.0.0",
+  "description": "Application that tells jokes",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariusrundereim/joker.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariusrundereim/joker/issues"
+  },
+  "homepage": "https://github.com/mariusrundereim/joker#readme",
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
+  }
+}
