@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node src/js/joker.js",
+    "format": "prettier -w src/js/joker.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,10 @@
     "url": "https://github.com/mariusrundereim/joker/issues"
   },
   "homepage": "https://github.com/mariusrundereim/joker#readme",
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  },
   "dependencies": {
-    "one-liner-joke": "^1.2.2"
+    "give-me-a-joke": "^0.5.1"
   }
 }
